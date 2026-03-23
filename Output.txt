@@ -1,0 +1,40 @@
+Using local MPCORB.DAT
+ETNO found: 43 (a > 200 AU, q > 30 AU, H > 5)
+
+=== Fixed-window test (half-width=60°) ===
+Best ω_P9 = 356.0°
+Clustering fraction = 83.7% (36/43)
+Monte Carlo p-value: 0.0107
+
+=== Information Dynamics Parameter Inversion ===
+Best ω_P9 = 8.2° (68% CI: [0.0, 21.8])
+Concentration κ = 1.22 (68% CI: [0.80, 1.86])
+Information purity p_ID = 0.550 (68% CI: [0.444, 0.651])
+Self-organization/dissipation ε/γ = 1.223
+
+============================================================
+FINAL REPORT – Information Dynamics Inversion for Planet Nine
+============================================================
+Data: MPCORB.DAT (processed 2026-03-23)
+ETNO criteria: a > 200 AU, q > 30 AU, H > 5
+Number of ETNO: 43
+
+--- Statistical clustering test ---
+Fixed window half-width: 60°
+Best ω_P9 = 356.0°
+Clustering fraction = 83.7% (36/43)
+Monte Carlo p-value = 0.0107
+
+--- Information Dynamics inversion ---
+Best ω_P9 = 8.2° (68% CI: [0.0, 21.8])
+Concentration κ = 1.22 (68% CI: [0.80, 1.86])
+Information purity p_ID = 0.550 (68% CI: [0.444, 0.651])
+Self-organization/dissipation ε/γ = 1.223
+
+Interpretation:
+The von Mises mixture captures the N=2 symmetry with moderate concentration.
+p_ID = 0.550 indicates a moderately self-organized state,
+comparable to intermediate systems. This supports the interpretation
+of Planet Nine as a projection of an information field.
+Plots saved: planet_nine_rose.png, planet_nine_von_mises_fit.png
+[Finished in 45.8s]
