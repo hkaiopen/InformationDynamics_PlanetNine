@@ -14,29 +14,29 @@ The aim is to provide a quantitative, data‑driven estimate of the dynamical st
 
 1. **Data retrieval**  
    The script automatically downloads the Minor Planet Center’s `MPCORB.DAT` file (gzipped) if not already present.
+   Alternatively, you may download `MPCORB.DAT` file manually from https://www.minorplanetcenter.net/iau/MPCORB/.
 
-2. **ETNO selection**  
+3. **ETNO selection**  
    Objects are selected with:
    - semi‑major axis \(a > 200\) AU  
    - perihelion distance \(q = a(1-e) > 30\) AU  
    - absolute magnitude \(H > 5\)
 
-3. **Statistical clustering test**  
+4. **Statistical clustering test**  
    A fixed window half‑width of 60° is used to measure the fraction of ETNOs whose ω falls within two opposite windows (centered on a test longitude ωₚ₉ and ωₚ₉+180°). The best‑fitting ωₚ₉ is found by scanning 0–360°. Significance is assessed with 10,000 Monte Carlo trials against a uniform distribution.
 
-4. **Information Dynamics parameter inversion**  
+5. **Information Dynamics parameter inversion**  
    The ω distribution is modelled as a mixture of two von Mises distributions with equal concentration κ and means separated by 180°. Maximum likelihood estimation yields κ.  
-   The information purity is defined as  
-   \[
-   p_{\mathrm{ID}} = \frac{\kappa}{1+\kappa}
-   \]  
-   and the self‑organization to dissipation ratio as  
-   \[
-   \frac{\varepsilon}{\gamma} = \frac{p_{\mathrm{ID}}}{1-p_{\mathrm{ID}}}.
-   \]  
+   
+   The information purity is defined as:  
+   > p<sub>ID</sub> = κ / (1 + κ)  
+   
+   and the self‑organization to dissipation ratio as:  
+   > ε / γ = p<sub>ID</sub> / (1 - p<sub>ID</sub>)  
+   
    Bootstrap resampling (1000 trials) gives 68% confidence intervals.
 
-5. **Visualization**  
+6. **Visualization**  
    - A polar rose plot of the ω distribution (`planet_nine_rose.png`).  
    - A histogram with the fitted von Mises mixture density (`planet_nine_von_mises_fit.png`).
 
