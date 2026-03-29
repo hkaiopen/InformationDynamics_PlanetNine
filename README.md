@@ -139,7 +139,7 @@ To view a copy of this license, visit https://creativecommons.org/licenses/by-nc
 If you use this code or the results in your own work, please cite the following works:
 
 1.  **The associated research paper (preprint):**
-    > Huang, K., & Liu, H. (2026). *Information Dynamics: Gravity as a Projection of the Information Field – Inversion and Test via the Orbital Clustering of Planet Nine*. arXiv preprint. (arXiv ID to be added upon submission).
+    > Huang, K., & Liu, H. (2026). *Information Dynamics: Gravity as a Projection of the Information Field – Inversion and Test via the Orbital Clustering of Planet Nine*. Zenodo preprint. (https://doi.org/10.5281/zenodo.19319559).
 
 2.  **The software implementation (this repository):**
     > Huang, K. (2026). *hkaiopen/InformationDynamics_PlanetNine: v1.0* (Version v1.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.19208434
