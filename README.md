@@ -14,7 +14,7 @@ The aim is to provide a quantitative, data‑driven estimate of the dynamical st
 
 1. **Data retrieval**  
    The script automatically downloads the Minor Planet Center’s `MPCORB.DAT` file (gzipped) if not already present.
-   Alternatively, you may download `MPCORB.DAT` file manually from https://www.minorplanetcenter.net/iau/MPCORB/.
+   Alternatively, you may download `MPCORB.DAT` file manually from https://www.minorplanetcenter.net/data/.
 
 3. **ETNO selection**  
    Objects are selected with:
@@ -113,15 +113,39 @@ These parameters provide a quantitative description of the hypothetical Planet N
 
 ## 8. License
 
-This project is open source and available under the MIT License.
+This project is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License** (CC BY-NC-SA 4.0).
+
+This license allows you to:
+*   **Share** — copy and redistribute the material in any medium or format.
+*   **Adapt** — remix, transform, and build upon the material.
+
+Under the following terms:
+1.  **Attribution (BY)** — You must give **appropriate credit**, provide a link to the license, and **indicate if changes were made**. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use[1](@ref).
+2.  **NonCommercial (NC)** — You may **not use the material for commercial purposes**. Commercial purposes include, but are not limited to:
+    *   Selling products or services that incorporate this project.
+    *   Using it in paid training or courses.
+    *   Integrating it into commercial software.
+    *   Any use aimed at monetary compensation or private financial gain.
+3.  **ShareAlike (SA)** — If you remix, transform, or build upon the material, you **must distribute your contributions under the same license** as the original (CC BY-NC-SA 4.0)[1](@ref).
+
+**For any commercial use, you must obtain prior written permission from the author.** Please contact the author to discuss licensing options.
+
+To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/.
 
 ---
 
 ## 9. Citation
 
-If you use this code or the results in your own work, please cite:
+If you use this code or the results in your own work, please cite the following works:
 
-> Huang, K., & Liu, H. (2026). *Information Dynamics Inversion for Planet Nine: ETNO Argument of Perihelion Clustering as a Projection of a Self-Organized Mode*. GitHub repository. https://github.com/hkaiopen/InformationDynamics_PlanetNine
+1.  **The associated research paper (preprint):**
+    > Huang, K., & Liu, H. (2026). *Information Dynamics: Gravity as a Projection of the Information Field – Inversion and Test via the Orbital Clustering of Planet Nine*. arXiv preprint. (arXiv ID to be added upon submission).
+
+2.  **The software implementation (this repository):**
+    > Huang, K. (2026). *hkaiopen/InformationDynamics_PlanetNine: v1.0* (Version v1.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.19208434
+
+In the acknowledgements section of any publication, we also encourage you to acknowledge the use of data from the Minor Planet Center, as per their request:
+> This research has made use of data and/or services provided by the International Astronomical Union's Minor Planet Center.
 
 ---
 
