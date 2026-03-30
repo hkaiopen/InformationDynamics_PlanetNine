@@ -12,9 +12,11 @@ The aim is to provide a quantitative, data‑driven estimate of the dynamical st
 
 ## 2. Method
 
-1. **Data retrieval**  
-   The script automatically downloads the Minor Planet Center’s `MPCORB.DAT` file (gzipped) if not already present.
-   Alternatively, you may download `MPCORB.DAT` file manually from https://www.minorplanetcenter.net/data/.
+1. **Data source**
+   The Minor Planet Center Orbit Table (MPCORB.DAT), contains orbital data of hundreds of thousands of small celestial bodies (including orbital elements, absolute brightness, latest observation data, etc.) 
+   1) I have uploaded `MPCORB.DAT` file accompanying the code.
+   2) You may download `MPCORB.DAT` file manually from https://www.minorplanetcenter.net/data/.
+   3) The script could automatically download the Minor Planet Center’s `MPCORB.DAT` file (gzipped) if not already present.
 
 3. **ETNO selection**  
    Objects are selected with:
@@ -131,6 +133,29 @@ Under the following terms:
 **For any commercial use, you must obtain prior written permission from the author.** Please contact the author to discuss licensing options.
 
 To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/.
+
+---
+
+## Support This Independent Research
+ 
+If you find value in this unifying framework and would like to support further development (simulations, data analysis, outreach), any contribution — big or small — is deeply appreciated.  We definitely call for **Research Funding and Collaboration**.
+
+### Donation Options
+- **Buy Me A Coffee**  
+  [Donate via Buymeacoffee](https://buymeacoffee.com/hkaiopen)
+  
+- **Stripe**  
+  [Donate via Stripe](https://buy.stripe.com/eVqbJ12040RT1YLgg5gnK00)
+  
+- **PayPal**  
+  [Donate via PayPal](https://paypal.me/kevinhuangkai)  
+  (Supports one-time or recurring)
+
+- **Bank transfer**
+  Please DM me on X (@KevinHuangkai) for bank details.
+  
+All funds go toward researching more mysteries in the universe, and expanding the Information Dynamics model.  
+Thank you for supporting open, frontier science!
 
 ---
 
