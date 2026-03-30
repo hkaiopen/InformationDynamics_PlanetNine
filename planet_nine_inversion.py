@@ -25,8 +25,7 @@ from scipy.special import i0
 url = "https://www.minorplanetcenter.net/iau/MPCORB/MPCORB.DAT.gz"
 file_gz = "MPCORB.DAT.gz"
 file_dat = "MPCORB.DAT" 
-#Data file size is 294MB, too big to upload to Github. 
-#Download from https://www.minorplanetcenter.net/iau/MPCORB/
+#Downloaded from https://www.minorplanetcenter.net/data/
 
 if not os.path.exists(file_dat):
     print("Downloading MPCORB...")
