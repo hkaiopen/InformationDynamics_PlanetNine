@@ -138,7 +138,7 @@ To view a copy of this license, visit https://creativecommons.org/licenses/by-nc
 
 ## Support This Independent Research
  
-If you find value in this unifying framework and would like to support further development (simulations, data analysis, outreach), any contribution — big or small — is deeply appreciated.  We definitely call for **Research Funding and Collaboration**.
+If you feel excited on this unifying framework and would like to support further development (simulations, data analysis, outreach), any contribution — big or small — is deeply appreciated.  We definitely call for **Research Funding and Collaboration** and are deeply committed to the highest standards of **Scientific Responsibility**.
 
 ### Donation Options
 - **Buy Me A Coffee**  
@@ -164,7 +164,7 @@ Thank you for supporting open, frontier science!
 If you use this code or the results in your own work, please cite the following works:
 
 1.  **The associated research paper (preprint):**
-    > Huang, K., & Liu, H. (2026). *Information Dynamics: Gravity as a Projection of the Information Field – Inversion and Test via the Orbital Clustering of Planet Nine*. Zenodo preprint. (https://doi.org/10.5281/zenodo.19319559).
+    > Huang, K., & Liu, H. (2026). *Information Dynamics: Gravity as a Projection of the Information Field – Inversion and Test via the Orbital Clustering of Planet Nine*. Zenodo preprint. (_Updated on Mar 31, 2026_ **https://doi.org/10.5281/zenodo.19319558 This DOI represents all versions, and will always resolve to the latest version**).
 
 2.  **The software implementation (this repository):**
     > Huang, K. (2026). *hkaiopen/InformationDynamics_PlanetNine: v1.0* (Version v1.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.19208434
