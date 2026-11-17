@@ -1,3 +1,21 @@
+> **Update — 17 November 2026: the v1.0 analysis below is superseded.**
+> On re-checking, the v1.0 fixed-window Monte Carlo p-value (0.0107) was
+> invalid (the window centre was never re-maximised in the trials; the
+> corrected value is ≈ 0.21), ω is the wrong variable for a
+> spherical-geometry signal (perihelion directions are uniform), and the
+> `MPCORB.DAT` in this repository is a Git LFS pointer, not the data
+> file. The new analysis is in [`Update_Nov2026/`](Update_Nov2026/):
+> the signal is a ~15° mean-plane warp at 80–200 AU, the Neptune
+> crossers are explained by diffusion + source terms, and Planet Nine
+> is read as a purely imaginary carrier. Paper: Huang, Liu & Huang
+> (2026), *Inverting the Generalised Ginzburg-Landau Equation from the
+> Contradictions in the Planet Nine Evidence*, Zenodo v5,
+> https://doi.org/10.5281/zenodo.24304862 (submitted to Planetary
+> Research, no. 562). The v1.0 files below are kept unchanged for the
+> record.
+>
+> ---
+
 # Information Dynamics Inversion for Planet Nine
 
 This repository contains a Python implementation to invert the **Information Dynamics** parameters for the hypothetical Planet Nine using the argument of perihelion (ω) distribution of extreme trans-Neptunian objects (ETNOs). The code downloads the latest MPCORB database, selects ETNOs, performs a fixed‑window clustering test, and fits a mixture of two von Mises distributions to extract the concentration parameter κ, information purity p_ID = κ/(1+κ), and the self‑organization to dissipation ratio ε/γ = p_ID/(1−p_ID).
@@ -107,7 +125,8 @@ These parameters provide a quantitative description of the hypothetical Planet N
 
 ## 7. Repository contents
 
-- `planet_nine_inversion.py` – Main Python script (as described above)
+- `planet_nine_inversion.py` – Main Python script (v1.0, superseded — see the notice at the top)
+- `Update_Nov2026/` – November 2026 re-analysis: mean-plane warp, Neptune crossers (diffusion + source), detached objects, pole-width bound, and the generalised Ginzburg–Landau inversion. Contains 27 analysis scripts, the ETNO table, and small result files; see its own `README.md`. Large snapshot files are in the Zenodo record below, not in this repository.
 - `README.md` – This file
 - (Plots are generated on the fly and not stored in the repository)
 
@@ -163,10 +182,13 @@ Thank you for supporting open, frontier science!
 
 If you use this code or the results in your own work, please cite the following works:
 
-1.  **The associated research paper (preprint):**
+1.  **The associated research paper (preprint, current version):**
+    > Huang, K., Liu, H., & Huang, Z. (2026). *Inverting the Generalised Ginzburg-Landau Equation from the Contradictions in the Planet Nine Evidence*. Zenodo v5. https://doi.org/10.5281/zenodo.24304862 (submitted to Planetary Research, no. 562).
+
+2.  **The earlier research paper (preprint, v4, superseded):**
     > Huang, K., & Liu, H. (2026). *Information Dynamics: Gravity as a Projection of the Information Field – Inversion and Test via the Orbital Clustering of Planet Nine*. Zenodo preprint. (_Updated on Mar 31, 2026_ **https://doi.org/10.5281/zenodo.19319558 This DOI represents all versions, and will always resolve to the latest version**).
 
-2.  **The software implementation (this repository):**
+3.  **The software implementation (this repository):**
     > Huang, K. (2026). *hkaiopen/InformationDynamics_PlanetNine: v1.0* (Version v1.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.19208434
 
 In the acknowledgements section of any publication, we also encourage you to acknowledge the use of data from the Minor Planet Center, as per their request:
